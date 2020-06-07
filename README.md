@@ -16,3 +16,4 @@ Important note #1:
 
 Space was used to represent the absence of a symbol.
 For a wrong transition, the message "Error" is shown.
+The first state is symbolized (in the input file) as 1 not 0.
