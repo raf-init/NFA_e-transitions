@@ -1,6 +1,6 @@
 # NFA_e-transitions
 
-This project is about NFA (non deterministic finite automaton) with e transitions.
+This project is about NFA (non deterministic finite automaton) with and without e transitions.
 
 The following steps explain the algorithm's function:
 
