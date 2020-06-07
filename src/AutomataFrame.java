@@ -18,11 +18,11 @@ public class AutomataFrame extends JFrame {
 		
 		Character first_state = null;		
 		
-		//If the .txt file named Automata is present in the program's dir
+		//If the .txt file named Automaton is present in the program's dir
 		//then open it
 		Scanner s = null;
 	    try{
-	    	s = new Scanner(new BufferedReader(new FileReader("Automata.txt")));
+	    	s = new Scanner(new BufferedReader(new FileReader("Automaton.txt")));
 	    	while (s.hasNextLine()){
 	  
 	        String str = s.nextLine();
@@ -118,7 +118,7 @@ public class AutomataFrame extends JFrame {
 	    		}
 	    	}
 	    	
-	    	//Based on the counter determine the Automata's last state
+	    	//Based on the counter determine the Automaton's last state
 	    	if(current_states_array.size()!=0)	
 	    	{
 	    		if(counter==current_states_array.size() && counter!=0)
