@@ -1,5 +1,7 @@
 # NFA_e-transitions
 
+## Visit https://github.com/rafchriz/NFA_e-transitions.wiki.git for more details
+
 Input file's proper form:
 
 3 --> automaton has three states 
