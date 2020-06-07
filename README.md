@@ -1,18 +1,16 @@
 # NFA_e-transitions
 
-This project is about NFA (non deterministic finite automaton) with and without e transitions.
+Input file's proper form:
 
-The following steps explain the algorithm's function:
+3 --> automaton has three states 
 
-The input file contains all the details for the creation of the automaton in a specified form. 
-- The algorithm saves the initial state, the final states and the possible transitions. 
-- Then it initializes the arrays of the current and future states.
-- The user can enter an input symbol or a sequence of symbols. Pressing "Enter" completes the process.
-- A message then is printed, showing if the automaton has ended in an accepting state or not.
-- Later, the user can enter again a new symbol or a sequence of symbols.
-- The user can shut down the program by selecting "Cancel" from the UI or by closing the window. 
+1 --> initial state is q1 
 
-Important note #1:
+2 --> there are two final states 
 
-- Space was used to represent the absence of a symbol.
-- For a wrong transition, the message "Error" is shown.
+2 3 --> final states are q2 and q3
+
+6 --> there are 6 transitions
+
+1 a 2 --> from state q1 to state q2, using the symbol a
+1   3 --> from state q1 to state q3, using the symbol space as e transition 
